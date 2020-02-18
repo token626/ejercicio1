@@ -1,0 +1,20 @@
+body {
+    background:linear-gradient( black 15%, darkgray 5%, green 10%, blue 30%, red 25%)
+    
+}
+
+a {
+    color: white;
+    font-style: italic;
+    
+}
+
+h1 {
+    color: yellow;
+
+}
+
+li {
+    border: yellow solid 3px;
+    max-width: 100px;
+}
