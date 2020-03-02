@@ -19,6 +19,6 @@ li {
     max-width: 100px;
 }
 .vertical-align{
-    dispaly: Flex;
+    dispaly: flex;
     align-items: center;
 }
