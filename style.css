@@ -18,7 +18,4 @@ li {
     border: yellow solid 3px;
     max-width: 100px;
 }
-.vertical-align{
-    dispaly: flex;
-    align-items: center;
-}
+
