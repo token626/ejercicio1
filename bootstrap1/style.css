@@ -1,17 +1,5 @@
-body {
-    background: linear-gradient(to right, white, gray, black);
-}
-h1 {
-    color: royalblue;
-    font-size: 70px;
-}
-
-a {
-    
-    font-size: 20px;
-    color:white;
-}
-i {
-    color: red;
+img {
+    width: 350px;
+    height: 300px;
 }
 

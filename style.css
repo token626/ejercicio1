@@ -1,5 +1,5 @@
 body {
-    background:linear-gradient( to left ,black , darkgray , green , blue , red )
+    background:linear-gradient( to left ,black , darkgray , green , blue , red );
     
 }
 
@@ -18,3 +18,4 @@ li {
     border: yellow solid 3px;
     max-width: 100px;
 }
+
