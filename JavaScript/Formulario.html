@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h1>Ejemplo formulario</h1>
+    
+    
+   
+
+    <form action="" method="POST" onSubmit="return validarfor();">
+        <label for="nombre">Nombre del visitante</label><br>
+        <input type="text" id="nombre" name="nombre" placeholder="nombre">
+        <br>
+        <br>
+        <label for="apellidos">Apellidos: </label><br>
+        <input type="text" name="apellidos" id="apellidos">
+        <br>
+        <br>
+        
+        <label for="email">Dirección de correo electronico</label>
+        <br>
+        <input type="email" name="email" id="email">
+        <br><br>
+        
+
+        <input type="submit" value="enviar" name="enviar" id="enviar">
+        <input type="reset"  value="restablecer" id="restablecer">  
+        
+        
+    </form>
+
+<script>
+ function validarfor(){
+
+var correo = document.getElementById("email").value; 
+var nom = document.getElementsByName("nombre")[0].value;
+var apellidos = document.getElementsByName("apellidos")[0].value;
+
+
+var expr = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+
+if ((correo == "") || (nom == "") || (apellidos == "")) {  //COMPRUEBA CAMPOS VACIOS
+    alert("Los campos no pueden quedar vacios");
+    return false;
+}
+
+if ( !expr.test(correo) ){                                                            //COMPRUEBA MAIL
+    alert("Error: La dirección de correo " + correo + " es incorrecta.");
+    return false;
+}
+
+}
+
+    </script>
+    <link rel="stylesheet" href="style2.css">
+</body>
+</html>

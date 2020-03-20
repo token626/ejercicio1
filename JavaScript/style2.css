@@ -1,0 +1,33 @@
+body {
+    background-color:crimson;
+}
+
+h1 {
+    color:yellow;
+
+
+}
+label {
+    color:yellow;
+}
+input {
+    background-color: darkmagenta;
+}
+
+#enviar{
+    color: white;
+}
+
+#restablecer {
+    color: white;
+}
+
+#nombre {
+    color: white;
+}
+#email {
+    color: white;
+}
+#apellidos {
+    color: white;
+}
