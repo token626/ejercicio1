@@ -1,0 +1,46 @@
+
+
+
+body {
+    background: black;
+}
+
+.menu {
+    list-style:none;
+    background: blue;
+    max-width: 1024px;
+    margin: auto;
+}
+
+.menu li {
+    display: inline-block ;
+    padding: 10px 5px;
+    border: 1px solid black;
+    
+}
+.menu li a {
+text-decoration: none;
+color: black;
+}
+.menu li a:hover {
+    text-decoration: none;
+    color: #ffffff;
+    background: red;
+    border-bottom: 5px;
+}
+
+.fuente1 {
+    font-family: 'Pacifico', cursive;
+   
+}
+.fuente2 {
+    font-family: 'Shadows Into Light', cursive;
+}
+.color1 {
+    color: white;
+
+}
+.color2 {
+    color: red;
+    
+}
