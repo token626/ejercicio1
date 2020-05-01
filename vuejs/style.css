@@ -1,0 +1,11 @@
+body {
+    background-color: darkblue;
+}
+
+.jumbotron {
+background-color: white;
+text-align: center;
+}
+tr {
+    color: white;
+}
